@@ -6,10 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon />
     <StartupObject />
-    <Authors>RibbonWinForms, vytpat</Authors>
+    <Authors>RibbonWinForms, Avilda</Authors>
 	  <Version>5.1.1</Version>
     <PackageId>Avilda.RibbonWinForms</PackageId>
-    <Company>https://github.com/vytpat/RibbonWinForms</Company>
+    <Company>https://github.com/Avilda/RibbonWinForms</Company>
     <Product>System.Windows.Forms.Ribbon</Product>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <FileVersion>5.1.0.0</FileVersion>
