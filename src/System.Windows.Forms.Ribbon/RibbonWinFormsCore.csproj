@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
@@ -6,9 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon />
     <StartupObject />
-    <Authors>RibbonWinForms</Authors>
-    <PackageId />
-    <Company>https://github.com/RibbonWinForms/RibbonWinForms</Company>
+    <Authors>RibbonWinForms, Avilda</Authors>
+	  <Version>5.1.1</Version>
+    <PackageId>Avilda.RibbonWinForms</PackageId>
+    <Company>https://github.com/Avilda/RibbonWinForms</Company>
     <Product>System.Windows.Forms.Ribbon</Product>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <FileVersion>5.1.0.0</FileVersion>
@@ -16,7 +17,7 @@
     <AssemblyOriginatorKeyFile>WinFormsRibbon.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <RootNamespace>System.Windows.Forms</RootNamespace>
-    <AssemblyName>System.Windows.Forms.Ribbon</AssemblyName>
+    <AssemblyName>Avilda.RibbonWinforms</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
