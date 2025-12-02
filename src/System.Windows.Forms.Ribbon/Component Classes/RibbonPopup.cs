@@ -234,7 +234,6 @@ namespace System.Windows.Forms
         /// </summary>
         protected override CreateParams CreateParams
         {
-            [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
             get
             {
                 CreateParams cp = base.CreateParams;

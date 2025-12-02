@@ -80,7 +80,6 @@ namespace System.Windows.Forms
         /// Overrides the WndProc funciton
         /// </summary>
         /// <param name="m"></param>
-        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
         protected override void WndProc(ref Message m)
         {
             if (IsOpenInVisualStudioDesigner())
@@ -95,7 +94,6 @@ namespace System.Windows.Forms
 
         protected override CreateParams CreateParams
         {
-            [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
             get
             {
                 CreateParams cp = base.CreateParams;
