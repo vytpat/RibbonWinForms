@@ -30,7 +30,7 @@ namespace RibbonDemo
         {
             Image[] images = new Image[255];
             RibbonProfessionalRenderer rend = new RibbonProfessionalRenderer(ribbon1);
-            BackColor = ColorTable.RibbonBackground;
+            BackColor = Standard.RendererColorTable.RibbonBackground;
             Random r = new Random();
 
             #region Color Squares

@@ -20,7 +20,6 @@ using System.Windows.Forms.RibbonHelpers;
 
 namespace System.Windows.Forms
 {
-    [System.Security.Permissions.PermissionSet(System.Security.Permissions.SecurityAction.Demand, Name = "FullTrust")]
     public class RibbonDesigner
        : ControlDesigner
     {

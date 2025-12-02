@@ -414,7 +414,6 @@ namespace System.Windows.Forms.RibbonHelpers
         /// <summary>
         /// Installs the actual unsafe hook
         /// </summary>
-        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
         private void InstallHook()
         {
             // Error check
@@ -452,7 +451,6 @@ namespace System.Windows.Forms.RibbonHelpers
         /// <summary>
         /// Unhooks the hook
         /// </summary>
-        [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
         private void Unhook()
         {
             if (_handle != IntPtr.Zero)
