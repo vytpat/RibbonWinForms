@@ -21,7 +21,7 @@ namespace System.Windows.Forms
     /// Represents a list of buttons that can be navigated, an example being the Style Gallery in Word/Excel.
     /// </summary>
     [Designer(typeof(RibbonButtonListDesigner))]
-    public sealed class RibbonButtonList : RibbonItem,
+    public class RibbonButtonList : RibbonItem,
         IContainsSelectableRibbonItems, IScrollableRibbonItem, IContainsRibbonComponents
     {
         #region Subtypes

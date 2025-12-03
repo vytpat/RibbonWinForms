@@ -15,7 +15,7 @@ using System.Drawing;
 
 namespace System.Windows.Forms
 {
-    public sealed class RibbonSeparator : RibbonItem
+    public class RibbonSeparator : RibbonItem
     {
         public RibbonSeparator()
         {
